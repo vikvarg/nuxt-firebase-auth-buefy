@@ -19,4 +19,20 @@ $ npm run start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Firebase Auth Config
+In order to configure Firebase Auth in the root folder of the project the file with the following path must be created config/firebase/config.js
+
+```
+let firebaseConfig = {
+  apiKey: 'xxx',
+  authDomain: 'xxx',
+  databaseURL: 'xxx',
+  projectId: 'xxx',
+  storageBucket: 'xxx',
+  messagingSenderId: 'xxx',
+  appId: 'xxx',
+  measurementId: 'xxx'
+}
+
+module.exports = firebaseConfig;
+```
