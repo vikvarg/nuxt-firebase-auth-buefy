@@ -1,6 +1,8 @@
+import firebaseConfig from './config/firebase/config'
 
 export default {
   mode: 'universal',
+  env: true,
   /*
   ** Headers of the page
   */
@@ -47,16 +49,7 @@ export default {
     'nuxt-buefy',
   ],
   firebase: {
-    config: {
-      apiKey: 'AIzaSyDSI4XoiHwtI7cveDtLRbd0nmWuzhXmriA',
-      authDomain: 'nuxt-firebase-auth-a67fe.firebaseapp.com',
-      databaseURL: 'https://nuxt-firebase-auth-a67fe.firebaseio.com',
-      projectId: 'nuxt-firebase-auth-a67fe',
-      storageBucket: 'nuxt-firebase-auth-a67fe.appspot.com',
-      messagingSenderId: '1024307022955',
-      appId: '1:1024307022955:web:54f250ea26f75affc2b52e',
-      measurementId: 'G-ZEMGPJTWR4'
-    },
+    config: firebaseConfig,
     services: {
       auth: {
         persistance: 'local',
