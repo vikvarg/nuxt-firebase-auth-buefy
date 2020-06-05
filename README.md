@@ -1,6 +1,6 @@
-# nuxt-firebase-auth2
+# nuxt-firebase-auth-buefy
 
-> My divine Nuxt.js project
+> Boiler Plate for Nuxt with Firebase Auth and Buefy
 
 ## Build Setup
 
